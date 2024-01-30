@@ -9,7 +9,7 @@ Package.onUse(function (api) {
 
   api.versionsFrom('1.0');
 
-  api.use(['raix:eventemitter@1.0.0']);
+  api.use(['raix:eventemitter']);
 
   api.addFiles('eventstate.common.js', ['client', 'server']);
 
